@@ -191,9 +191,6 @@ Run the python inference script:
 python infer.py --config='./configs/prompts/infer.yaml'
 ```
 
-### Inference on Your Own Case
-**xxxx.ipynb** is a complete demo to generate animation video using the custom reference image, audio, and hand pose driven video.
-
 ### EMTD Dataset
 Download dataset:
 ```bash
