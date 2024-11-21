@@ -33,3 +33,4 @@ soundfile
 mediapipe
 decord
 IPython
+scenedetect
