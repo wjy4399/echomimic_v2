@@ -212,10 +212,10 @@ python xxxxxxxxxxxxxxx
 
 |  Status  | Milestone                                                                | ETA |
 |:--------:|:-------------------------------------------------------------------------|:--:|
-|    ✅    | The inference source code of EchoMimicV2 meet everyone on GitHub   | 19th Nov, 2024 |
-|    ✅    | Pretrained models trained on English and Mandarin Chinese on HuggingFace | 19th Nov, 2024 |
-|    ✅    | Pretrained models trained on English and Mandarin Chinese on ModelScope   | 19th Nov, 2024 |
-|    ✅    | EMTD dataset list and processing scripts                | 19th Nov, 2024 |
+|    ✅    | The inference source code of EchoMimicV2 meet everyone on GitHub   | 21st Nov, 2024 |
+|    ✅    | Pretrained models trained on English and Mandarin Chinese on HuggingFace | 21st Nov, 2024 |
+|    ✅    | Pretrained models trained on English and Mandarin Chinese on ModelScope   | 21st Nov, 2024 |
+|    ✅    | EMTD dataset list and processing scripts                | 21st Nov, 2024 |
 |    🚀    | Accelerated models to be released                                        | TBD |
 |    🚀    | Online Demo on ModelScope to be released            | TBD |
 |    🚀    | Online Demo on HuggingFace to be released         | TBD |
