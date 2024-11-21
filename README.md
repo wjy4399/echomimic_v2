@@ -129,7 +129,7 @@ Terminal Technology Department, Alipay, Ant Group.
 ### Download the Codes
 
 ```bash
-  git clone https://github.com/BadToBest/EchoMimic](https://github.com/antgroup/echomimic_v2
+  git clone https://github.com/antgroup/echomimic_v2
   cd echomimic_v2
 ```
 
