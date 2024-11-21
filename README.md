@@ -171,7 +171,7 @@ The **pretrained_weights** is organized as follows.
 ├── denoising_unet.pth
 ├── reference_unet.pth
 ├── motion_module.pth
-├── face_locator.pth
+├── pose_encoder.pth
 ├── sd-vae-ft-mse
 │   └── ...
 ├── sd-image-variations-diffusers
