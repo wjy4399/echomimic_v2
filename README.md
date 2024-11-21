@@ -35,10 +35,10 @@ Terminal Technology Department, Alipay, Ant Group.
 <table class="center">
 <tr>
     <td width=50% style="border: none">
-        <video controls loop src="https://antgroup.github.io/ai/echomimic_v2/asserts/demo_videos/chinese/chinese_introduction.mp4" muted="false"></video>
+        <video controls loop src="https://github.com/user-attachments/assets/f544dfc0-7d1a-4c2c-83c0-608f28ffda25" muted="false"></video>
     </td>
     <td width=50% style="border: none">
-        <video controls loop src="https://antgroup.github.io/ai/echomimic_v2/asserts/demo_videos/english/english_introduction.mp4" muted="false"></video>
+        <video controls loop src="https://github.com/user-attachments/assets/7f626b65-725c-4158-a96b-062539874c63" muted="false"></video>
     </td>
 </tr>
 </table>
