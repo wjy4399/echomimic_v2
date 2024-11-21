@@ -197,15 +197,15 @@ python infer.py --config='./configs/prompts/infer.yaml'
 ### EMTD Dataset
 Download dataset:
 ```bash
-python download.py
+python ./EMTD_dataset/download.py
 ```
 Slice dataset:
 ```bash
-bash slice.sh
+bash ./EMTD_dataset/slice.sh
 ```
 Process dataset:
 ```bash
-python preprocess.py
+python ./EMTD_dataset/preprocess.py
 ```
 
 ## 📝 Release Plans
