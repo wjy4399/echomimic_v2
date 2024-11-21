@@ -129,8 +129,8 @@ Terminal Technology Department, Alipay, Ant Group.
 ### Download the Codes
 
 ```bash
-  git clone https://github.com/BadToBest/EchoMimic
-  cd EchoMimic
+  git clone https://github.com/BadToBest/EchoMimic](https://github.com/antgroup/echomimic_v2
+  cd echomimic_v2
 ```
 
 ### Python Environment Setup
@@ -201,7 +201,7 @@ python download.py
 ```
 Slice dataset:
 ```bash
-python slice.sh
+bash slice.sh
 ```
 Process dataset:
 ```bash
