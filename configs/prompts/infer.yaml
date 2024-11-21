@@ -4,8 +4,7 @@ image_encoder_path: "./pretrained_weights/sd-image-variations-diffusers/image_en
 
 denoising_unet_path: './pretrained_weights/denoising_unet.pth'
 reference_unet_path: "./pretrained_weights/reference_unet.pth"
-face_locator_path: "./pretrained_weights/face_locator.pth"
-
+pose_encoder_path: "./pretrained_weights/pose_encoder.pth"
 motion_module_path: './pretrained_weights/motion_module.pth'
 
 audio_mapper_path: "./pretrained_weights/audio_mapper-50000.pth"
