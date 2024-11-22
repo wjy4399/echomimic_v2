@@ -485,7 +485,7 @@ class EchoMimicV2Pipeline(DiffusionPipeline):
             context_frames
         )
         
-        pose_enocder_tensor = self.pose_enocder(poses_tensor)
+        pose_enocder_tensor = self.pose_encoder(poses_tensor)
         
         extra_step_kwargs = self.prepare_extra_step_kwargs(generator, eta)
 
