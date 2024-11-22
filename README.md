@@ -149,7 +149,11 @@ Create conda environment (Recommended):
 
 Install packages with `pip`
 ```bash
+  pip install pip -U
+  pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 xformers==0.0.28.post3 --index-url https://download.pytorch.org/whl/cu124
+  pip install torchao --index-url https://download.pytorch.org/whl/nightly/cu124
   pip install -r requirements.txt
+  pip install --no-deps facenet_pytorch==2.6.0
 ```
 
 ### Download ffmpeg-static
@@ -187,6 +191,10 @@ In which **denoising_unet.pth** / **reference_unet.pth** / **motion_module.pth**
 - [audio_processor(whisper)](https://openaipublic.azureedge.net/main/whisper/models/65147644a518d12f04e32d6f3b26facc3f8dd46e5390956a9424a650c0ce22b9/tiny.pt)
 
 ### Inference on Demo 
+Run the gradio:
+```bash
+python gradio.py
+```
 Run the python inference script:
 ```bash
 python infer.py --config='./configs/prompts/infer.yaml'
