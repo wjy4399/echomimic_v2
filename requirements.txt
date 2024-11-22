@@ -8,7 +8,6 @@ torchmetrics
 torchtyping
 tqdm
 facenet_pytorch==2.5.0
-moviepy==1.0.3
 einops==0.4.1
 omegaconf==2.3.0
 opencv-python
@@ -42,3 +41,5 @@ mediapipe
 decord
 IPython
 scenedetect
+moviepy==1.0.3
+huggingface_hub==0.25.2
