@@ -224,10 +224,7 @@ with gr.Blocks(theme=gr.themes.Soft()) as demo:
             <div style="text-align: center; font-weight: bold; color: red;">
                 ⚠️ 该演示仅供学术研究和体验使用。
             </div>
-            <div style="text-align: center;">
-                一键包制作 by 十字鱼|
-                <a href="https://space.bilibili.com/893892">🌐 Bilibili</a> 
-            </div>
+            
             """)
     with gr.Column():
         with gr.Row():
