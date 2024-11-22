@@ -143,7 +143,7 @@ Terminal Technology Department, Alipay, Ant Group.
 Create conda environment (Recommended):
 
 ```bash
-  conda create -n echomimic python=3.8
+  conda create -n echomimic python=3.10
   conda activate echomimic
 ```
 
