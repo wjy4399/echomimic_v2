@@ -207,7 +207,7 @@ def main():
         start_idx=start_idx,
     ).videos 
     
-    final_length = min(video.shape[2], face_mask_tensor.shape[2], args.L)
+    final_length = min(video.shape[2], poses_tensor.shape[2], args.L)
     video_sig = video[:, :, :final_length, :, :]
     
     save_videos_grid(
