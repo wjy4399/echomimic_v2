@@ -171,7 +171,7 @@ def main():
     ref_image_pil = Image.open(inputs_dict['refimg']).resize((args.W, args.H))
     audio_clip = AudioFileClip(inputs_dict['audio'])
     
-    args.L = min(int(audio_clip.duration * final_fps), len(os.listdir(inputs_dict['pose'])))
+    args.L = min(args.L, int(audio_clip.duration * final_fps), len(os.listdir(inputs_dict['pose'])))
 
     pose_list = []
     for index in range(start_idx, start_idx + args.L):
