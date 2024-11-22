@@ -47,6 +47,12 @@ def parse_args():
     parser.add_argument("--sample_rate", type=int, default=16000)
     parser.add_argument("--fps", type=int, default=24)
     parser.add_argument("--device", type=str, default="cuda")
+    parser.add_argument("--ref_images_dir", type=str, default=f'./assets/halfbody_demo/refimag')
+    parser.add_argument("--audio_dir", type=str, default='./assets/halfbody_demo/audio')
+    parser.add_argument("--pose_dir", type=str, default="./assets/halfbody_demo/pose")
+    parser.add_argument("--refimg_name", type=str, default='natural_bk_openhand/0035.png')
+    parser.add_argument("--audio_name", type=str, default='chinese/echomimicv2_woman.wav')
+    parser.add_argument("--pose_name", type=str, default="01")
 
     args = parser.parse_args()
 
@@ -138,14 +144,15 @@ def main():
         generator = torch.manual_seed(random.randint(100, 1000000))
 
     final_fps = args.fps
+        
+    ref_images_dir = args.ref_images_dir
+    audio_dir = args.audio_dir
+    pose_dir = args.pose_dir
+
+    refimg_name = args.refimg_name
+    audio_name = args.audio_name
+    pose_name = args.pose_name
     
-    ref_images_dir = f'assets/halfbody_demo/refimag'
-    audio_dir = 'assets/halfbody_demo/audio'
-    pose_dir = 'assets/halfbody_demo/pose'
-    
-    refimg_name = 'natural_bk_openhand/0035.png'
-    audio_name = 'chinese/echomimicv2_woman.wav'
-    pose_name = '01'
 
     inputs_dict = {
         "refimg": f'{ref_images_dir}/{refimg_name}',
