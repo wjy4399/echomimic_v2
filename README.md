@@ -183,7 +183,7 @@ The **pretrained_weights** is organized as follows.
 ├── sd-image-variations-diffusers
 │   └── ...
 └── audio_processor
-    └── whisper_tiny.pt
+    └── tiny.pt
 ```
 
 In which **denoising_unet.pth** / **reference_unet.pth** / **motion_module.pth** / **pose_encoder.pth** are the main checkpoints of **EchoMimic**. Other models in this hub can be also downloaded from it's original hub, thanks to their brilliant works:
