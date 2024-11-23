@@ -194,7 +194,7 @@ In which **denoising_unet.pth** / **reference_unet.pth** / **motion_module.pth**
 ### Inference on Demo 
 Run the gradio:
 ```bash
-python gradio.py
+python app.py
 ```
 Run the python inference script:
 ```bash
