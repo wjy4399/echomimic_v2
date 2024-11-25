@@ -1,7 +1,3 @@
-
-"""
-@界面作者：十字鱼 <https://space.bilibili.com/893892>
-"""
 import os
 import random
 from pathlib import Path
@@ -60,7 +56,7 @@ def generate(image_input, audio_input, pose_input, width, height, length, steps,
         print("使用int8量化")
 
     ## reference net init
-    reference_unet = UNet2DConditionModel.from_pretrained("./pretrained_weights/sd-image-variations-diffusers", subfolder="unet").to(dtype=dtype, device=device)
+    reference_unet = UNet2DConditionModel.from_pretrained("./pretrained_weights/sd-image-variations-diffusers", subfolder="unet", use_safetensors=False).to(dtype=dtype, device=device)
     reference_unet.load_state_dict(torch.load("./pretrained_weights/reference_unet.pth", weights_only=True))
     if quantization_input:
         quantize_(reference_unet, int8_weight_only())
