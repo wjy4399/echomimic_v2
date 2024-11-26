@@ -29,7 +29,7 @@ Terminal Technology Department, Alipay, Ant Group.
 
 ## &#x1F4E3; Updates
 * [2024.11.22] 🔥 [GradioUI](https://github.com/antgroup/echomimic_v2/blob/main/app.py) is now available. Thanks @gluttony-10 for the contribution.
-* [2024.11.22] 🔥 [ComFyUI](https://github.com/smthemex/ComfyUI_EchoMimic) is now available. Thanks @smthemex for the contribution.
+* [2024.11.22] 🔥 [ComfyUI](https://github.com/smthemex/ComfyUI_EchoMimic) is now available. Thanks @smthemex for the contribution.
 * [2024.11.21] 🔥 We release the EMTD dataset list and processing scripts.
 * [2024.11.21] 🔥 We release our [EchoMimicV2](https://github.com/antgroup/echomimic_v2) codes and models.
 * [2024.11.15] 🔥 Our [paper](https://arxiv.org/abs/2411.10061) is in public on arxiv.
