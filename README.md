@@ -144,9 +144,7 @@ Terminal Technology Department, Alipay, Ant Group.
 ```bash
    sh linux_setup.sh
 ```
-```bash
-   cd echomimic_v2
-```
+
 ```
    python app.py
 ```
