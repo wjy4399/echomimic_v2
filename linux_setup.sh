@@ -1,4 +1,5 @@
 #!/bin/bash
+
 #install requirements
 pip install -r requirements.txt
 # Function to check file existence
