@@ -1,5 +1,6 @@
 #!/bin/bash
-
+#install requirements
+pip install -r requirements.txt
 # Function to check file existence
 verify_file() {
     if [ ! -f "$1" ]; then
