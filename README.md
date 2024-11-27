@@ -20,6 +20,8 @@ Terminal Technology Department, Alipay, Ant Group.
     <!--<a href='https://antgroup.github.io/ai/echomimic_v2/'><img src='https://img.shields.io/badge/ModelScope-Demo-purple'></a>-->
     <a href='https://arxiv.org/abs/2411.10061'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
     <a href='https://github.com/antgroup/echomimic_v2/blob/main/assets/halfbody_demo/wechat_group.png'><img src='https://badges.aleen42.com/src/wechat.svg'></a>
+</div>
+<div align='center'>
     <a href='https://github.com/antgroup/echomimic_v2/discussions/53'><img src='https://img.shields.io/badge/English-Common Problems-orange'></a>
     <a href='https://github.com/antgroup/echomimic_v2/discussions/40'><img src='https://img.shields.io/badge/中文版-常见问题汇总-orange'></a>
 </div>
