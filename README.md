@@ -145,10 +145,6 @@ Terminal Technology Department, Alipay, Ant Group.
 ```bash
    sh linux_setup.sh
 ```
-
-```
-   python app.py
-```
 ## ⚒️ Manual Installation
 ### Download the Codes
 
