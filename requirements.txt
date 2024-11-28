@@ -1,4 +1,3 @@
-mediapipe
 transformers>=4.46.3
 diffusers==0.31.0
 torchmetrics
@@ -37,3 +36,4 @@ IPython
 scenedetect
 moviepy==1.0.3
 huggingface_hub==0.26.2
+mediapipe
