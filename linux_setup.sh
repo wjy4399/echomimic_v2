@@ -93,12 +93,12 @@ else
 fi
 cd ../../..
 
-# Install FFmpeg system-wide
+# Install FFmpeg Enviroment
 if ! dpkg -l | grep -q ffmpeg; then
-    echo "Installing FFmpeg system-wide..."
+    echo "Installing FFmpeg enviroment..."
     sudo apt update && sudo apt install -y ffmpeg
 else
-    echo "FFmpeg already installed system-wide. Skipping."
+    echo "FFmpeg enviroment already installed. Skipping."
 fi
 
 echo "Setup complete!"
