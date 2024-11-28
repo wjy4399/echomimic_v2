@@ -132,14 +132,14 @@ Terminal Technology Department, Alipay, Ant Group.
 </tr>
 </table>
 
-## ⚒️ Installation
+## ⚒️ Automatic Installation
 ### Download the Codes
 
 ```bash
   git clone https://github.com/antgroup/echomimic_v2
   cd echomimic_v2
 ```
-### Automatic Setup for Linux
+### Automatic Setup
 - CUDA >= 11.7, Python == 3.10
 
 ```bash
@@ -149,7 +149,13 @@ Terminal Technology Department, Alipay, Ant Group.
 ```
    python app.py
 ```
-## Manual Installation
+## ⚒️ Manual Installation
+### Download the Codes
+
+```bash
+  git clone https://github.com/antgroup/echomimic_v2
+  cd echomimic_v2
+```
 ### Python Environment Setup
 
 - Tested System Environment: Centos 7.2/Ubuntu 22.04, Cuda >= 11.7
