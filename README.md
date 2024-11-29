@@ -31,7 +31,7 @@ Terminal Technology Department, Alipay, Ant Group.
 * EchoMimicV2: Towards Striking, Simplified, and Semi-Body Human Animation. [GitHub](https://github.com/antgroup/echomimic_v2)
 
 ## &#x1F4E3; Updates
-* [2024.11.27] 🔥 Thanks [AiMotionStudio](https://www.youtube.com/@AiMotionStudio) for the [installation tutorial](https://www.youtube.com/watch?v=2ab6U1-nVTQ).
+* [2024.11.27] 🔥 [Installation tutorial](https://www.youtube.com/watch?v=2ab6U1-nVTQ) is now available. Thanks [AiMotionStudio](https://www.youtube.com/@AiMotionStudio) for the contribution.
 * [2024.11.22] 🔥 [GradioUI](https://github.com/antgroup/echomimic_v2/blob/main/app.py) is now available. Thanks @gluttony-10 for the contribution.
 * [2024.11.22] 🔥 [ComfyUI](https://github.com/smthemex/ComfyUI_EchoMimic) is now available. Thanks @smthemex for the contribution.
 * [2024.11.21] 🔥 We release the EMTD dataset list and processing scripts.
