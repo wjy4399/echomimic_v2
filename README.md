@@ -241,7 +241,6 @@ python ./EMTD_dataset/preprocess.py
 |    ✅    | Pretrained models trained on English and Mandarin Chinese on ModelScope   | 21st Nov, 2024 |
 |    ✅    | EMTD dataset list and processing scripts                | 21st Nov, 2024 |
 |    ✅    | Jupyter demo with pose and reference image alignmnet                | 16st Dec, 2024 |
-
 |    🚀    | Accelerated models to be released                                        | TBD |
 |    🚀    | Online Demo on ModelScope to be released            | TBD |
 |    🚀    | Online Demo on HuggingFace to be released         | TBD |
