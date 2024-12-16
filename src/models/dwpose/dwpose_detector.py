@@ -62,7 +62,7 @@ class DWposeDetector:
             return pose
 
 dwpose_detector = DWposeDetector(
-    model_det="/nas2/zhiquan/model/DWPose/yolox_l.onnx",
-    model_pose="/nas2/zhiquan/model/DWPose/dw-ll_ucoco_384.onnx",
+    model_det="your_path_to_yolox_l.onnx",
+    model_pose="your_path_to_dw-ll_ucoco_384.onnx",
     device=device)
 print('dwpose_detector init ok', device)
